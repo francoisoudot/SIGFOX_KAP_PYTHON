@@ -4,7 +4,7 @@ Python code example to control the key app device through serial AT commands
 
 ## Introduction
 
-SIGFOX - http://sigfox.com/ - is the first and only company providing global cellular connectivity for the Internet of Things, fully dedicated to low-throughput communications. SIGFOX is re-inventing connectivity by radically lowering prices and energy consumption for connected devices.
+SIGFOX - <http://sigfox.com/> - is the first and only company providing global cellular connectivity for the Internet of Things, fully dedicated to low-throughput communications. SIGFOX is re-inventing connectivity by radically lowering prices and energy consumption for connected devices.
 Your device connects to SIGFOX network and the messages received are pushed to the customer’s backend trhough an API.
 
     device <---> antennas <---> SIGFOX cloud <---> your backend
@@ -21,5 +21,9 @@ You will have to onstall this library before using the code. You can find severa
 ## Code to change
 The serial port name can be different from one device to another depending on which OS you are on (linux users - you should be fine). You have to make to change the name to the good serial port accordingly to the key app connected.
 Also the data payload to send will depend on the application you are building. So feel free to change it!
+
+## Links
+You can check SIGFOX @ <http://sigfox.com/>
+You will find a very cool project using rasp pi with a key app and communicating through SIGFOX @ <https://github.com/aboudou/picheckvoltage>
 
 
