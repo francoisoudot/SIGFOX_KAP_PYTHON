@@ -1,5 +1,6 @@
 # SIGFOX_KAP_PYTHON
-Python code example to control the key app device through serial AT commands
+Python code example to control the key app device through serial AT commands. 
+This code can run on whatever computer (OS Linux & Mac tested) with a USB port and can control the key app to send the message you want through SIGFOX's network.
 
 
 ## Introduction
